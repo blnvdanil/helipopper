@@ -58,6 +58,8 @@ export class TippyDirective implements OnChanges, AfterViewInit, OnDestroy, OnIn
   @Output() visible = new EventEmitter<boolean>();
   @Input() public isVisible = false;
 
+  @Output() changed: EventEmitter<any> = new EventEmitter<any>();
+
   private instance: TippyInstance;
   private viewRef: ViewRef;
   private destroyed = new Subject<void>();
