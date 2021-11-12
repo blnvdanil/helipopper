@@ -124,7 +124,7 @@ export class TippyDirective implements OnChanges, AfterViewInit, OnDestroy, OnIn
   }
 
   ngAfterViewInit() {
-    this.zone.runOutsideAngular(() => {
+    this.zone.run(() => {
       if (this.lazy) {
         if (this.onlyTextOverflow) {
           inView(this.host)
@@ -203,7 +203,7 @@ export class TippyDirective implements OnChanges, AfterViewInit, OnDestroy, OnIn
       return;
     }
 
-    this.zone.runOutsideAngular(() => {
+    this.zone.run(() => {
       this.instance = tippy(this.host, {
         allowHTML: true,
         appendTo: document.body,
