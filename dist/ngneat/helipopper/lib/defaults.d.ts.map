@@ -1,0 +1,1 @@
+{"version":3,"file":"defaults.d.ts","sourceRoot":"","sources":["../../../../projects/ngneat/helipopper/src/lib/defaults.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,WAAW,EAAE,MAAM,eAAe,CAAC;AAE5C,aAAK,SAAS,GAAG,WAAW,CAAC,YAAY,CAAC,CAAC,CAAC,CAAC,CAAC;AAE9C,eAAO,MAAM,gBAAgB,EAAE,SAM9B,CAAC;AAEF,eAAO,MAAM,eAAe,EAAE,SAO7B,CAAC;AAEF,wBAAgB,wBAAwB,CAAC,aAAa,EAAE,SAAS,GAAG,SAAS,CAQ5E"}

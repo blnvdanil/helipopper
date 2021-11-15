@@ -1,0 +1,45 @@
+{
+  "name": "@ngneat/helipopper",
+  "version": "4.2.0",
+  "description": "A Powerful Tooltip and Popover for Angular Applications",
+  "schematics": "./schematics/collection.json",
+  "dependencies": {
+    "tippy.js": "^6.2.3",
+    "tslib": "^2.0.0"
+  },
+  "peerDependencies": {
+    "@ngneat/overview": "*"
+  },
+  "keywords": [
+    "angular",
+    "angular tooltip",
+    "angular popover",
+    "tooltip",
+    "popover",
+    "tippy.js",
+    "popper.js",
+    "helipopper"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/ngneat/helipopper/issue"
+  },
+  "homepage": "https://github.com/ngneat/helipopper#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ngneat/helipopper"
+  },
+  "main": "bundles/ngneat-helipopper.umd.js",
+  "module": "fesm2015/ngneat-helipopper.js",
+  "es2015": "fesm2015/ngneat-helipopper.js",
+  "esm2015": "esm2015/ngneat-helipopper.js",
+  "fesm2015": "fesm2015/ngneat-helipopper.js",
+  "typings": "ngneat-helipopper.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by Ivy in full compilation mode. This is not allowed.\\nPlease delete and rebuild the package with Ivy partial compilation mode, before attempting to publish.\\n')\" && exit 1"
+  }
+}

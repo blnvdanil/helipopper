@@ -44,3 +44,6 @@ testem.log
 .DS_Store
 Thumbs.db
 cypress/screenshots
+
+projects/ngneat/helipopper/package-lock.json
+projects/ngneat/helipopper/node_modules
